@@ -1,22 +1,18 @@
 <template>
-    <header>
-      <nav>
-        <div>
-          <img class="img-logo" src="@/assets/avadabarbers-logo-x2-200x70.png" alt="logo">
-        </div>
-
-        <div>
-
-        </div>
-      </nav>
-    </header>
+  <header>
+    <nav>
+      <div>
+        <img class="img-logo" src="@/assets/avadabarbers-logo-x2-200x70.png" alt="logo">
+      </div>
+      <div>
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </nav>
+  </header>
 </template>
 
 <script>
-
-import '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/free-solid-svg-icons'
-import '@fortawesome/vue-fontawesome'
 
 export default {
   name: 'MyHeader',
@@ -44,5 +40,9 @@ nav {
 .img-logo {
   width: 100px;
   height: auto;
+}
+.fas {
+  color: white;
+  margin-left: 7px;
 }
 </style>
