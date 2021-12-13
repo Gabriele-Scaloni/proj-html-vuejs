@@ -5,6 +5,8 @@
 
     <MyMain/>
 
+    <SectionServices/>
+
     <MyFooter/>
 
   </div>
@@ -14,13 +16,16 @@
 
 import MyHeader from './components/MyHeader.vue'
 import MyMain from './components/MyMain.vue'
+import SectionServices from './components/SectionServices.vue'
 import MyFooter from './components/MyFooter.vue'
+
 
 export default {
   name: 'App',
   components: {
     MyHeader,
     MyMain,
+    SectionServices,
     MyFooter
   }
 }
