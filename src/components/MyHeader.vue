@@ -51,10 +51,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
- header {
+header {
   width: 100%;
   height: 700px;
-  background-color:rgb(75, 75, 75); /* da mettere bckgr img */
+  background-image: url('~@/assets/avadabarbers-homepage-hero-bg.jpg');
+  background-size: 100%;
 }
 nav {
   align-items: center;
