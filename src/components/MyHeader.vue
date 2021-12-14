@@ -53,8 +53,9 @@ export default {
 <style scoped lang="scss">
 header {
   width: 100%;
-  height: 700px;
+  height: 600px;
   background-image: url('~@/assets/avadabarbers-homepage-hero-bg.jpg');
+  background-size: cover;
   background-size: 100%;
 }
 nav {

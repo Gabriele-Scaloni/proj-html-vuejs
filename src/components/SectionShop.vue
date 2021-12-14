@@ -49,7 +49,8 @@ export default {
   width: 100%;
   height: 600px;
   background-image: url('~@/assets/avadabarbers-reviewsbackground.jpg');
-  background-size: 100%;
+  background-size:contain;
+
   position: relative;
 }
 .fusion-big-triangle-candy {

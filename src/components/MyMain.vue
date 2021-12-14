@@ -25,6 +25,7 @@ export default {
   width: 100%;
   height: 500px;
   background-image:url("~@/assets/avadabarbers-about-introbackground.jpg");
+  background-size: cover;
   display: flex;
   justify-content: center;
   position: relative;

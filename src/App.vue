@@ -11,6 +11,8 @@
 
     <ProductMonth/>
     
+    <Reviews/>
+
     <MyFooter/>
 
   </div>
@@ -23,6 +25,7 @@ import MyMain from './components/MyMain.vue'
 import SectionServices from './components/SectionServices.vue'
 import SectionShop from './components/SectionShop.vue'
 import ProductMonth from './components/ProductMonth.vue'
+import Reviews from './components/Reviews.vue'
 import MyFooter from './components/MyFooter.vue'
 
 
@@ -34,6 +37,7 @@ export default {
     SectionServices,
     SectionShop,
     ProductMonth,
+    Reviews,
     MyFooter
   }
 }
