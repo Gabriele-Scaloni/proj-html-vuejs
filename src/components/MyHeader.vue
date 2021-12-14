@@ -31,7 +31,7 @@
     <div class="container-square">
      <div class="square">
       <div class="in-square">
-        <p class="price-square">$<span>39</span></p>
+        <p class="price-square"><strong><span class="dollar">$</span><span>39</span></strong></p>
         <p class="p-square">On Sale</p>
       </div>
     </div>
@@ -82,14 +82,19 @@ nav, .container-title-imgtitle{
 h1 {
   font-size: 40px;
   color: white;
+  margin-bottom: 25px;
 }
 .divisorio-titolo { 
   width: 110px;
   border: 1px solid #be9359;
+  margin-bottom: 25px;
+
 }
 p {
   color: #5e5d5d;
   font-size: 14px;
+  margin-bottom: 25px;
+
 }
 .btn-header {
   display: flex;
@@ -120,7 +125,7 @@ p {
 .fa-file-alt {
   position:absolute;
   left: 50%;
-  top: 5px;
+  top: 7px;
   transform:translate(-50%);
   font-size: 25px;
 }
@@ -134,14 +139,19 @@ span {
 }
 .p-square {
   position: absolute;
-  top: 20px;
+  top: 35px;
+}
+.dollar {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  font-size: 15px;
 }
 .price-square {
-  position: absolute;
   position:absolute;
-  left: 50%;
-  top: 50%;
-  transform:translate(-50%, -50%);
+  left: 55%;
+  top:7px ;
+  transform:translate(-45%);
   color: #67bd7d;
   font-size: 20px;
 }
