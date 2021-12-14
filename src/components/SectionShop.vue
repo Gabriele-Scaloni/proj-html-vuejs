@@ -8,27 +8,26 @@
         <div>
             <ul class="ul-shop">
                 <li>
-                    <img src="@/assets/avadabarbers-trimcut-icon-before.png" alt="">
+                    <img src="@/assets/brush_dark-400x400.png" alt="">
                     <h3>Brush</h3>
                     <p>$15.00</p>
                 </li>
                 <li>
-                    <img src="@/assets/avadabarbers-trimcut-icon-before.png" alt="">
+                    <img src="@/assets/scissors-400x400.png" alt="">
                     <h3>Scissors</h3>
                     <p>$85.00</p>
                 </li>
                 <li>
-                    <img src="@/assets/avadabarbers-trimcut-icon-before.png" alt="">
+                    <img src="@/assets/hot_oil_dark-400x400.png" alt="">
                     <h3>Hot Oil</h3>
                     <p>$15.00</p>
                 </li>
                 <li>
-                    <img src="@/assets/avadabarbers-trimcut-icon-before.png" alt="">
+                    <img src="@/assets/straight_razor_dark-400x400.png" alt="">
                     <h3>Straight Razor</h3>
                     <p>$30.00</p>
                 </li>
             </ul>
-
             <button class="btn-shop"> SHOP OUR PRODUCT RANGE </button>
         </div>
     </section>
@@ -48,7 +47,7 @@ export default {
 
 .container-section-shop {
   width: 100%;
-  height: 550px;
+  height: 600px;
   background-image: url('~@/assets/avadabarbers-reviewsbackground.jpg');
   background-size: 100%;
   position: relative;
@@ -76,14 +75,14 @@ h3 {
     margin:40px 0 20px 0;
 }
 .ul-shop {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 img {
-    width: 100px;
+    width: 200px;
     object-fit: contain;
 }
 .btn-shop {
@@ -94,6 +93,5 @@ img {
   padding: 0 15px;
   display:block;
   margin: 40px auto;
-
 }
 </style>
