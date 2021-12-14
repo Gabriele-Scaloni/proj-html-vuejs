@@ -36,7 +36,6 @@ p {
   color: #be9359;
   text-align: center;
   font-size: 14px;
-
 }
 h2 {
   color: #b1b1b1;
@@ -51,9 +50,8 @@ h2 {
   color: #be9359;
   border: 1px solid #be9359;
   padding: 0 15px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  display:block;
+  margin: auto;
 }
 .fusion-big-triangle-candy {
   position: absolute;

@@ -22,6 +22,7 @@
           <p class="description-services">Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.</p>
         </div>
       </div>
+      <button class="btn-services"><h4>READ ABOUT OUR SERVICES</h4> </button>
     </section>
 </template>
 
@@ -74,5 +75,14 @@ h3 {
 }
 .description-services {
   color: #b1b1b1;
+}
+.btn-services {
+  display:block;
+  margin:50px auto;
+  height: 40px;
+  color:#be9359 ;
+  border: 2px solid #be9359;
+  background-color: white;
+  padding: 0 15px;
 }
 </style>

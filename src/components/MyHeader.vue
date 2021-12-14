@@ -94,16 +94,12 @@ p {
   color: #5e5d5d;
   font-size: 14px;
   margin-bottom: 25px;
-
 }
 .btn-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 120px;
   height: 40px;
   color:#be9359 ;
-  opacity: 0.4;
+  opacity: 0.4;//da mettere un background color none
   border: 2px solid #be9359;
 }
 .title-section {

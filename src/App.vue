@@ -7,6 +7,8 @@
 
     <SectionServices/>
 
+    <SectionShop/>
+
     <MyFooter/>
 
   </div>
@@ -17,6 +19,7 @@
 import MyHeader from './components/MyHeader.vue'
 import MyMain from './components/MyMain.vue'
 import SectionServices from './components/SectionServices.vue'
+import SectionShop from './components/SectionShop.vue'
 import MyFooter from './components/MyFooter.vue'
 
 
@@ -26,6 +29,7 @@ export default {
     MyHeader,
     MyMain,
     SectionServices,
+    SectionShop,
     MyFooter
   }
 }
