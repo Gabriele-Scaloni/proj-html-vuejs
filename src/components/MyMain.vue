@@ -46,7 +46,7 @@ h2 {
 }
 .btn-main {
   height: 40px;
-  opacity: 0.3;
+  background-color: transparent;
   color: #be9359;
   border: 1px solid #be9359;
   padding: 0 15px;

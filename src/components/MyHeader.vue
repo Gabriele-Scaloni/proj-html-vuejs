@@ -56,7 +56,6 @@ header {
   height: 600px;
   background-image: url('~@/assets/avadabarbers-homepage-hero-bg.jpg');
   background-size: cover;
-  background-size: 100%;
 }
 nav {
   align-items: center;
@@ -99,7 +98,7 @@ p {
   width: 120px;
   height: 40px;
   color: #be9359 ;
-  opacity: 0.4;//da mettere un background color none
+  background-color: transparent;
   border: 2px solid #be9359;
 }
 .title-section {

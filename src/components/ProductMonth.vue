@@ -80,7 +80,7 @@ h2 {
   height: 40px;
   color: #be9359;
   border: 1px solid #be9359;
-  background-color: #121413;
+  background-color: transparent;
   margin-top: 20px;
   padding: 0 30px;
 }

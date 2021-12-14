@@ -88,9 +88,9 @@ img {
 }
 .btn-shop {
   height: 40px;
-  opacity: 0.3;
   color: #be9359;
   border: 1px solid #be9359;
+  background-color: transparent;
   padding: 0 15px;
   display:block;
   margin: 40px auto;

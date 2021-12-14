@@ -84,7 +84,7 @@ h3 {
   height: 40px;
   color:#be9359 ;
   border: 2px solid #be9359;
-  background-color: white;
+  background-color: transparent;
   padding: 0 15px;
 }
 
