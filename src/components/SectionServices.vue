@@ -23,6 +23,8 @@
         </div>
       </div>
       <button class="btn-services"><h4>READ ABOUT OUR SERVICES</h4> </button>
+
+
     </section>
 </template>
 
@@ -38,9 +40,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .container-section-services {
-  width: 60%;
-  height: 500px;
+  width: 100%;
+  height: 700px;
   margin: 100px auto;
+}
+.container-service {
+  width: 60%;
+  margin:0 auto;
+  display: flex;
 }
 p {
   color: #be9359;
@@ -52,9 +59,6 @@ h2 {
   text-align: center;
   font-size: 40px;
   margin: 20px 0 100px 0;
-}
-.container-service {
-  display: flex;
 }
 .service {
   width:calc(100%/3) ;
@@ -77,12 +81,13 @@ h3 {
   color: #b1b1b1;
 }
 .btn-services {
-  display:block;
-  margin:50px auto;
+  display: block;
+  margin: 50px auto 100px auto;
   height: 40px;
   color:#be9359 ;
   border: 2px solid #be9359;
   background-color: white;
   padding: 0 15px;
 }
+
 </style>

@@ -88,7 +88,6 @@ h1 {
   width: 110px;
   border: 1px solid #be9359;
   margin-bottom: 25px;
-
 }
 p {
   color: #5e5d5d;
@@ -98,7 +97,7 @@ p {
 .btn-header {
   width: 120px;
   height: 40px;
-  color:#be9359 ;
+  color: #be9359 ;
   opacity: 0.4;//da mettere un background color none
   border: 2px solid #be9359;
 }
@@ -115,14 +114,14 @@ p {
   height: 55px;
   background-color: white;
   border-radius: 5px;
-  margin:5px 10px;
+  margin: 5px 10px;
   float: right;
 }
 .fa-file-alt {
   position:absolute;
   left: 50%;
   top: 7px;
-  transform:translate(-50%);
+  transform: translate(-50%);
   font-size: 25px;
 }
 span {
@@ -146,8 +145,8 @@ span {
 .price-square {
   position:absolute;
   left: 55%;
-  top:7px ;
-  transform:translate(-45%);
+  top: 7px;
+  transform: translate(-45%);
   color: #67bd7d;
   font-size: 20px;
 }

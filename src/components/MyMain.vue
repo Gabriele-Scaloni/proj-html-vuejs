@@ -44,7 +44,6 @@ h2 {
   margin: 20px 0;
 }
 .btn-main {
-  widows: 120px;
   height: 40px;
   opacity: 0.3;
   color: #be9359;
