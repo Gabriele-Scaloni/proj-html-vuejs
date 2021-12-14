@@ -13,6 +13,8 @@
     
     <Reviews/>
 
+    <SectionPosts/>
+
     <MyFooter/>
 
   </div>
@@ -26,6 +28,7 @@ import SectionServices from './components/SectionServices.vue'
 import SectionShop from './components/SectionShop.vue'
 import ProductMonth from './components/ProductMonth.vue'
 import Reviews from './components/Reviews.vue'
+import SectionPosts from './components/SectionPosts.vue'
 import MyFooter from './components/MyFooter.vue'
 
 
@@ -38,6 +41,7 @@ export default {
     SectionShop,
     ProductMonth,
     Reviews,
+    SectionPosts,
     MyFooter
   }
 }

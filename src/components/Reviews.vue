@@ -20,9 +20,7 @@
           <img src="@/assets/avadabarbers-trimcut-gallery3-200x201.jpg" alt="">
           <h5>Mark Wilson</h5>
         </div>
-
       </div>
-
     </section>
 </template>
 
@@ -39,7 +37,7 @@ export default {
 <style scoped lang="scss">
 .container-section-reviews {
   width: 100%;
-  height: 700px;
+  height: 500px;
   margin: 50px auto 0 auto;
 }
 .container-reviews {
