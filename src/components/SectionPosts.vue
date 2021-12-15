@@ -1,16 +1,6 @@
 <template>
   <section class="container-section-services">
-    <svg
-      class="fusion-big-triangle-candy"
-      xmlns="http://www.w3.org/2000/svg"
-      version="1.1"
-      width="100%"
-      height="100"
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      style="fill: #ffffff; padding: 0"
-    >
-      <path d="M0 100 L50 2 L100 100 Z"></path>
+    <svg class="fusion-big-triangle-candy" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" style="fill: #ffffff; padding: 0"> <path d="M0 100 L50 2 L100 100 Z"></path>
     </svg>
     <div class="container-title-blog">
       <!-- titolo main -->
@@ -19,7 +9,7 @@
     </div>
     <div class="container-service">
       <div class="service">
-        <img src="@/assets/avadabarbers-choosing-blog-320x202.jpg" alt="" />
+        <img src="@/assets/avadabarbers-second-blog-320x202.jpg" alt="img blog" />
         <h3>Avada Barber Now Open</h3>
         <p class="description-services">
           Avada Barbers are axperts in the lickety split and hair cut. Quick but
@@ -27,7 +17,7 @@
         </p>
       </div>
       <div class="service">
-        <img src="@/assets/avadabarbers-choosing-blog-700x441.jpg" alt="" />
+        <img src="@/assets/avadabarbers-choosing-blog-700x441.jpg" alt="img blog" />
         <h3>Choosing The Right Barber</h3>
         <p class="description-services">
           Take a seat in our fine leather chairs, lean back and let us lather
@@ -35,7 +25,7 @@
         </p>
       </div>
       <div class="service">
-        <img src="@/assets/avadabarbers-ourservice-blog-700x441.jpg" alt="" />
+        <img src="@/assets/avadabarbers-ourservice-blog-700x441.jpg" alt="img blog" />
         <h3>Quick Service Guide</h3>
         <p class="description-services">
           Tame the tangles and untidy facial hairs like a gentleman with our
@@ -74,7 +64,7 @@ export default {
   width: 60%;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 p {
   color: #be9359;
@@ -92,12 +82,11 @@ h2 {
   margin: 0 20px;
 }
 img {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: auto;
   object-fit: contain;
   display: block;
-  margin: 0px auto 15px auto;
-  text-align: center;
+  margin: 15px auto;
 }
 h3 {
   color: #be9359;

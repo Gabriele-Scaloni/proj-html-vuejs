@@ -61,8 +61,8 @@ h2 {
   margin: 0 25px;
 }
 img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
   display:block;
   margin: 15px auto;
