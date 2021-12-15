@@ -8,7 +8,7 @@
       <p>WE HAVE YOU COVERED</p>
       <h2>Avada Grooming Products</h2>
     </div>
-    <div class="con-prod">
+    <div class="container-products">
       <Products v-for="prodotto, i in prodotti"
         :img="prodotto.image"
         :descrizione="prodotto.description"
@@ -83,7 +83,7 @@ h2 {
   font-size: 40px;
   margin: 10px 0 50px 0;
 }
-.con-prod {
+.container-products {
   width: 90%;
   margin: 0 auto;
   display: flex;

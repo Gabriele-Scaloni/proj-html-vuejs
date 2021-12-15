@@ -1,36 +1,48 @@
 <template>
-  
-    <section class="container-section-services">
-      <div> <!-- titolo main -->
-        <p>MENS GROOMING</p>   
-        <h2>Services</h2>
-      </div>
-      <div class="container-service">
-        <div class="service">
-          <img src="@/assets/avadabarbers-trimcut-icon-before.png" alt="">
-          <h3>Trim & cut </h3>
-          <p class="description-services">Avada Barbers are axperts in the lickety split and hair cut. Quick but careful and ridiculously good looking.</p>
-        </div>
-        <div class="service">
-          <img src="@/assets/avadabarbers-washndry-icon.png" alt="">
-          <h3>Trim & cut </h3>
-          <p class="description-services">Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashioin.</p>
-        </div>
-        <div class="service">
-          <img src="@/assets/avadabarbers-beardtrim-icon.png" alt="">
-          <h3>Trim & cut </h3>
-          <p class="description-services">Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.</p>
-        </div>
-      </div>
-      <button class="btn-services"><h4>READ ABOUT OUR SERVICES</h4> </button>
-    </section>
+  <section class="container-section-services">
+    <div> <!-- titolo main -->
+      <p>MENS GROOMING</p>   
+      <h2>Services</h2>
+    </div>
+    <div class="container-service">
+      <Services v-for="service, j in services"
+      :img="service.image"
+      :nomeservizio="service.name"
+      :descrizioneservizio="service.description"
+      :key="j"/>
+    </div>
+    <button class="btn-services"><h4>READ ABOUT OUR SERVICES</h4> </button>
+  </section>
 </template>
 
 <script>
+import Services from './Services.vue'
 
 export default {
-  name: 'SectionServices',
-  props: {
+  name: "SectionServices",
+    components: {
+    Services,
+  },
+ data(){
+    return {
+      services: [
+        {
+          image:"avadabarbers-trimcut-icon-before.png",
+          name:"Trim & cut",
+          description:"Avada Barbers are axperts in the lickety split and hair cut. Quick but careful and ridiculously good looking.",
+        },
+        {
+          image:"avadabarbers-washndry-icon.png",
+          name:"Wash & Dry",
+          description:"Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashioin.",
+        },
+        {
+          image:"avadabarbers-beardtrim-icon.png",
+          name:"Beard Tidy",
+          description:"Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.",
+        }
+      ]
+    }
   }
 }
 </script>
@@ -44,13 +56,9 @@ export default {
 }
 .container-service {
   width: 60%;
-  margin:0 auto;
+  margin: 0 auto;
   display: flex;
-}
-p {
-  color: #be9359;
-  text-align: center;
-  font-size: 14px;
+  justify-content: space-around;
 }
 h2 {
   color: #b1b1b1;
@@ -58,25 +66,10 @@ h2 {
   font-size: 40px;
   margin: 20px 0 100px 0;
 }
-.service {
-  width:calc(100%/3) ;
-  margin: 0 20px;
-  }
-img {
-  width: 75px;
-  height: 100px;
-  object-fit: contain;
-  display:block;
-  margin:0px auto 30px auto;
-  text-align:center;
-}
-h3 {
+p {
   color: #be9359;
-  margin-bottom: 30px;
   text-align: center;
-}
-.description-services {
-  color: #b1b1b1;
+  font-size: 14px;
 }
 .btn-services {
   display: block;
