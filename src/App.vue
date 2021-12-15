@@ -10,7 +10,7 @@
     <SectionShop/>
 
     <ProductMonth/>
-    
+
     <Reviews/>
 
     <SectionPosts/>
@@ -30,7 +30,6 @@ import ProductMonth from './components/ProductMonth.vue'
 import Reviews from './components/Reviews.vue'
 import SectionPosts from './components/SectionPosts.vue'
 import MyFooter from './components/MyFooter.vue'
-
 
 export default {
   name: 'App',

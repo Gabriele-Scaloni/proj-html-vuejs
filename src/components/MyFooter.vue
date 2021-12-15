@@ -8,11 +8,9 @@
       <div class="part">
         <img class="img-logo" src="@/assets/avadabarbers-logo-x2-200x70.png" alt="img logo footer"/>
         <ul class="ul-contacts">
-          <li>Avada Barbers</li>
-          <li>123 New York Street</li>
-          <li>New York City</li>
-          <li>info@yourwebsite.com</li>
-          <li>11555155511223</li>
+          <li v-for="(site, i) in sites" :key="i">
+            <a :href="site.url"><span>{{ site.text }} </span></a>
+          </li>
         </ul>
         <p>FOLLOW US</p>
         <ul class="ul-icons">
@@ -26,7 +24,6 @@
         <img src="@/assets/avadabarbers_footer_appointment_image-200x156.png" alt="img footer" />
         <button class="btn-footer"><h4>BOOK YOUR APPOINTMENT</h4></button>
       </div>
-      
     </div>
     <div class="footer-copyright">
       <p class="copyright-desccription"><i class="far fa-copyright"></i> Copyright 2021-2020| Avada Theme by ThemeFusion| All Right Reserved|Powered by Wordpress</p>
@@ -37,7 +34,32 @@
 <script>
 export default {
   name: "MyFooter",
-  props: {},
+  data(){
+    return {
+      sites: [
+        {
+          text:"Avada Barbers",
+          url:"#",
+        },
+         {
+          text:"123 New York Street",
+          url:"#",
+        },
+        {
+          text:"New York City",
+          url:"#",
+        },
+        {
+          text:"info@yourwebsite.com",
+          url:"#",
+        },
+        {
+          text:"11555155511223",
+          url:"#",
+        },
+      ],
+    }
+  }
 };
 </script>
 
@@ -45,7 +67,7 @@ export default {
 <style scoped lang="scss">
 footer {
   width: 100%;
-  height: 350px;
+  height: 400px;
   background-color: #121314;
 }
 .footer-container {
@@ -96,12 +118,17 @@ ul {
 li {
   color: #5f5d5e;
   text-align: center;
+  text-decoration: none;
+  margin-bottom:5px ;
 }
-p {
+span, p{
   color: #be9359;
   font-size: 14px;
   text-align: center;
   margin: 15px 0;
+}
+a {
+  text-decoration: none;
 }
 .fab {
   color: white;
@@ -112,6 +139,6 @@ p {
   justify-content: center;
 }
 .left, .right {
-  padding-top: 30px;
+  margin-top: 50px;
 }
 </style>
